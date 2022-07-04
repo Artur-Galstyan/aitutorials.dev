@@ -1,0 +1,56 @@
+{% extends "base_template.html" %}
+
+{% block header %}
+<title>AI Tutorials</title>
+<script defer>
+    $(document).ready(function () {
+
+    });
+</script>
+
+
+{% endblock %}
+
+
+
+{% block main %}
+
+<div id="logo">
+    <div class="main-title  mt-12 mx-12 text-5xl">
+        <span class="bg-gradient-to-r from-cyan-500 to-blue-700 bg-clip-text text-transparent"> AI
+            Tutorials</span>
+    </div>
+    <div class="typewriter mx-12">learning by doing</div>
+</div>
+
+
+<div class="text-center main-title">
+    New!
+</div>
+
+<div class="mb-6 w-[35%] mx-auto border-2 border-slate-100 shadow-md p-4">
+    <div class="flex justify-center">
+        <div class="rounded-lg">
+            <img class="" src="{{url_for('static', filename='images/placeholder.png')}}" alt="Placeholder">
+        </div>
+    </div>
+    <div
+        class="ease-in duration-150 transition hover:scale-105 mx-auto roboto bg-green-500 text-center my-4 rounded text-white">
+        <div class="p-2 text-lg">
+            Begin
+        </div>
+    </div>
+</div>
+
+<div class="my-12 text-center text-xl ubuntu">
+    Prepare for a career as an AI researcher
+</div>
+
+<div class="my-24 text-center text-4xl main-title text-opacity-25 text-gray-500">
+    New courses coming soon!
+</div>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+{% endblock %}
