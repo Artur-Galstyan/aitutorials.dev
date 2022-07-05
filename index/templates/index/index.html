@@ -18,17 +18,17 @@
 
 
 
-<div class="text-center main-title">
+<div class="text-center main-title my-4">
     New!
 </div>
 
-<div class="mb-6 w-[35%] mx-auto border-2 border-slate-100 shadow-md p-4">
+<div class="card mb-6 w-[35%] mx-auto shadow-lg p-4 ease-in duration-150 transition hover:scale-105 rounded-lg">
     <div class="flex justify-center">
         <div class="rounded-lg">
             <img class="" src="{{url_for('static', filename='images/placeholder.png')}}" alt="Placeholder">
         </div>
     </div>
-    <a href="">
+    <a href="{{ url_for('courses_bp.feedforward_nn', course_number=1) }}">
         <div
             class="w-[35%] ease-in duration-150 transition hover:scale-110 mx-auto bg-green-500 text-center my-4 rounded text-white cursor-pointer">
             <div class="p-2 text-xl">
