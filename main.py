@@ -1,6 +1,6 @@
 from flask import Flask
 from index.index import index_bp
-from blog.blog import blog_bp
+from courses.courses import blog_bp
 
 
 app = Flask(__name__)

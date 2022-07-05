@@ -8,11 +8,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
 
-    .ubuntu {
-        font-family: 'Ubuntu', sans-serif;
-    }
+
+@layer components {
 
     .main-title {
         font-family: cubano, sans-serif;
