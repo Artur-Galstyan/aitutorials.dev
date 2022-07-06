@@ -502,14 +502,14 @@ body{
   position: static;
 }
 
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-12{
@@ -527,17 +527,8 @@ body{
   margin-right: 3rem;
 }
 
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mb-6{
   margin-bottom: 1.5rem;
-}
-
-.mt-12{
-  margin-top: 3rem;
 }
 
 .block{
@@ -604,23 +595,14 @@ body{
   padding: 0.5rem;
 }
 
-.px-12{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.pt-12{
-  padding-top: 3rem;
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .text-center{

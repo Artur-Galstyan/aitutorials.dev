@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base_template.html" %}
+{% block header %}
+<title>AI Tutorials</title>
+<script defer>
+    $(document).ready(function () {
+        $('#main').css('width', '50%')
+    });
+</script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 
-<body>
-    yes
-</body>
+{% endblock %}
 
-</html>
+{% block main %}
+
+<div class="text-3xl">
+    LOLOL
+</div>
+
+<div id="main">
+    {% include "courses/feedforward_nn/part1.html" %}
+
+</div>
+
+{% endblock %}
