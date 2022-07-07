@@ -3,7 +3,7 @@
 <title>AI Tutorials</title>
 <script defer>
     $(document).ready(function () {
-        $('#main').css('width', '50%')
+        $("body").css("background", "white")
     });
 </script>
 
@@ -12,12 +12,16 @@
 
 {% block main %}
 
-<div class="text-3xl">
-    LOLOL
-</div>
 
-<div id="main">
-    {% include "courses/feedforward_nn/part1.html" %}
+<div class="w-[90%] md:w-[50%] mx-auto text-justify">
+
+    A neural network (NN) is loosely based on the inner workings of biological brains. In biological brains, neurons
+    have axons which "connect" with other neurons via our synapses. Our neurons "talk" with each other using complex
+    chemical processes. However, the main idea that artificial NNs took from the biological ones is that once there is
+    enough action potential in the neuron and a certain threshold is passed, a neuron sends a signal to its connected
+    neurons. (Again, I'm vastly simplifying; the process involves a lot of chemistry).
+
+    <img src="{{ url_for('static', filename='/images/NeuralNetworkBasics.jpg') }}" alt="Neural Network Basics">
 
 </div>
 
